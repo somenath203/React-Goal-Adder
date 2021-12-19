@@ -18,7 +18,7 @@ const AddUser = (props) => {
     ) {
       setError({
         title: 'Invalid Input',
-        message: 'Please enter a valid, goal and date.',
+        message: 'Please enter a valid name, goal and date.',
       });
       return;
     }
